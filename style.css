@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+}
+/* Header styling */
+h1, h2 {
+    color: #1f3c88;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #1f3c88;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container for content */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Projects list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+ul li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* Back link styling */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 15px;
+}
+
+/* Add some spacing to sections */
+h2 {
+    margin-top: 20px;
+}
+/* Navbar styling */
+.navbar {
+    background-color: #1f3c88;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #16306a;
+    border-radius: 8px;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eaf0fb;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #1f3c88;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #333;
+}
+ul li {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #1f3c88;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+<style>
+ul.custom-bullets {
+  list-style-type: square; /* or circle, disc, none */
+  padding-left: 20px;      /* indentation */
+  color: #333;
+}
+</style>
+<ul class="custom-bullets">
+<li>Spearheaded Tableau dashboards providing executives with real-time visibility into store-level sales, customer behavior, and coupon redemption trends — improving decision-making speed by 25%.</li>
+	 
+
+<li>Developed a centralized data warehouse on Amazon Redshift by integrating multiple sources (POS, e-commerce, demographic data), improving data refresh efficiency by 40%.</li>
+
+<li>Automated Tableau report publishing and scheduling, reducing manual reporting effort by 30% and increasing stakeholder engagement.</li>
+
+<li>Designed complex LOD calculations, dynamic parameters, and interactive maps for granular drill-downs on sales and market data.</li>
+
+<li>Built geo-visualized heatmaps to identify underperforming regions and potential new store locations based on demographic insights.</li>
+
+<li>Partnered with marketing teams to analyze coupon effectiveness and customer segmentation, driving a 12% increase in repeat purchases over 3 months.</li>
+
+<li>Optimized SQL Server databases and ETL workflows using T-SQL and SSIS, ensuring accurate, high-quality data for analytics and reporting.</li>
+    </ul>
